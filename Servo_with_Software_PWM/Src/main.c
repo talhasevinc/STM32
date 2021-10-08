@@ -93,8 +93,8 @@ int main(void)
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
 
-  PWM_GPIO_Init(GPIOA, GPIO_PIN_4);
-  set_PWM_Frequency(1000);
+  PWM_GPIO_Init(GPIOA, GPIO_PIN_4); //Servo attach Pin A4
+  set_PWM_Frequency(1000);          //Frequency setted 1khz.
   /* USER CODE END 2 */
 
   /* Infinite loop */
