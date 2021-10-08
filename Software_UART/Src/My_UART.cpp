@@ -363,13 +363,14 @@ uint8_t UART::receiveByte()
      return data;
 
 }
-void UART::Uart_Receive(uint8_t *receiveArray,uint8_t receiveSize,uint16_t timeOut)
+bool UART::Uart_Receive(uint8_t *receiveArray,uint8_t receiveSize,uint16_t timeOut)
 {
 	 miliseconds=0;
 	 uint8_t state=0;
 	 uint8_t count=0;
 	 bool startCame=0;
 	 bool findStartCondition=0;
+	 bool dataReceived=false;
 
 	 while(miliseconds<timeOut)
 	 {
@@ -384,6 +385,7 @@ void UART::Uart_Receive(uint8_t *receiveArray,uint8_t receiveSize,uint16_t timeO
 		 switch(state)
 		 {
 		 	 case startConditionState:
+				 dataReceived=true;
 		 		 firstSampleDelay();
 		 		 if(HAL_GPIO_ReadPin(Rx, RxPin) == startBit)
 		 		 { state=receiveData; findStartCondition=1; startCame=1;}
@@ -412,6 +414,7 @@ void UART::Uart_Receive(uint8_t *receiveArray,uint8_t receiveSize,uint16_t timeO
 
 	 }
 	 debug=1;
+	 return dataReceived;
 
 
 
