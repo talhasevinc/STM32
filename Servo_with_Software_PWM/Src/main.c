@@ -94,7 +94,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   PWM_GPIO_Init(GPIOA, GPIO_PIN_4); //Servo attach Pin A4
-  set_PWM_Frequency(1000);          //Frequency setted 1khz.
+  set_PWM_Frequency(500);          //Frequency setted 500 Hz.
   /* USER CODE END 2 */
 
   /* Infinite loop */
