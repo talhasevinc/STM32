@@ -5,7 +5,9 @@ For configuration, this function used.
 
 XbeeInitFlag=XbeeInit("1071","AAAA", "BBBB", "5" , "40");
 
-The parameters mean, respectively,
+Module has UART interface.The parameters mean, respectively,
 ID, SourceAddress, DestinationAddress, BaudRate, maxPacketSize
 
 In order to communicate between two modules, the parameters must be set so that the source address and destination addresses have to be cross, and the modules must have the same ID.
+
+
