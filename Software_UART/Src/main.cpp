@@ -125,8 +125,10 @@ int main(void)
 	  }
 	  else
 	  {
-		  myUart.Uart_Receive((uint8_t *)receiveDatas,20,500);
-	  	  memset(sendDatas,'\0',20);
+		  if(myUart.Uart_Receive((uint8_t *)receiveDatas,20,500))
+		  {
+	  	    memset(sendDatas,'\0',20);
+		  }
 	  }
 
 
