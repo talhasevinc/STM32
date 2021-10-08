@@ -32,6 +32,7 @@ uint32_t miliseconds=0;
 extern uint32_t loopCounter;
 extern uint32_t time;
 char sendDatas[20];
+char receiveDatas[20];
 bool sendUart=1;
 /* USER CODE END Includes */
 
@@ -119,12 +120,12 @@ int main(void)
     /* USER CODE BEGIN 3 */
 	  if(sendUart)
 	  {
-		  myUart.Uart_Transmit((uint8_t *)sendDatas,10);
+		  myUart.Uart_Transmit((uint8_t *)sendDatas,strlen(sendDatas));
 		  HAL_Delay(5);
 	  }
 	  else
 	  {
-		  myUart.Uart_Receive((uint8_t *)sendDatas,20,1000);
+		  myUart.Uart_Receive((uint8_t *)receiveDatas,20,500);
 	  	  memset(sendDatas,'\0',20);
 	  }
 
