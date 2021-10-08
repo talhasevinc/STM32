@@ -1,4 +1,5 @@
 This module has this specification:
+
   .-165 dBm sensitivity, 10 Hz updates, 66 channels
   .5V friendly design and only 20mA current draw
   .Breadboard friendly + two mounting holes
