@@ -40,7 +40,8 @@ My test conditions are these:
      
      SEND:
      
-     ![UartSend_550x350](https://user-images.githubusercontent.com/34924065/136581845-a91890b3-8026-405d-91a7-41611d7aa212.jpg)
+ ![UartSend](https://user-images.githubusercontent.com/34924065/136582035-a81a1fe4-1187-4ce6-870b-7afbcaef6bac.jpg)
+
      
      RECEIVE:
      
