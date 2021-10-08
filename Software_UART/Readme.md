@@ -40,12 +40,19 @@ My test conditions are these:
      
      SEND:
      
- ![UartSend](https://user-images.githubusercontent.com/34924065/136582035-a81a1fe4-1187-4ce6-870b-7afbcaef6bac.jpg)
+![UartSend](https://user-images.githubusercontent.com/34924065/136582927-659c3d04-9e4b-4d55-a816-22394356abaf.JPG)
+
 
      
      RECEIVE:
      
-     ![UartReceive_550x350](https://user-images.githubusercontent.com/34924065/136581883-c85985eb-9c5b-4ab9-935b-e78ceb1050dc.jpg)
+ ![UartReceive115200](https://user-images.githubusercontent.com/34924065/136582985-4ef3754e-f358-4980-ba2b-44cbe09b9300.JPG)
+ 
+ 
+    
+![57600Baud](https://user-images.githubusercontent.com/34924065/136583027-20c60148-2063-414c-b192-4a7894470a0c.JPG)
+     
+
 
 
      
