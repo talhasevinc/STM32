@@ -32,7 +32,7 @@ class UART
 		void stopCondition();
 		void sendData(uint8_t value);
 		void Uart_Transmit(uint8_t *sendArray,uint32_t dataSize);
-		void Uart_Receive(uint8_t *receiveArray,uint8_t receiveSize,uint16_t timeOut);
+		bool Uart_Receive(uint8_t *receiveArray,uint8_t receiveSize,uint16_t timeOut);
 		uint8_t receiveByte();
 		void resetIO();
 		void setTimer(uint16_t frequency);
