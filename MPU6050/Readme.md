@@ -1,1 +1,1 @@
-
+The sensor is capable of measuring 3-axis acceleration and inclination. The library written in this project serves the purpose of measuring slope. The sensor communicates with the I2C interface. The important point is that in order for the data to be measured correctly, it is necessary to constantly measure and evaluate the values obtained continuously.
