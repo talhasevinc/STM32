@@ -11,7 +11,7 @@ This module has this specification:
   .Fix status LED
   
 
-                   ![AdafruitUltimateGps](https://user-images.githubusercontent.com/34924065/136550701-1ba07bb2-5a91-4aed-8afe-f7e17c3fcd8d.jpg)
+![AdafruitUltimateGps](https://user-images.githubusercontent.com/34924065/136550701-1ba07bb2-5a91-4aed-8afe-f7e17c3fcd8d.jpg)
 
 
 The module communicates with the uart interface. NMEA sentences are received over the Uart and the information in the desired format is filtered. Position information is obtained from the obtained array. DMA feature of STM is used to receive data from the UART interface.The purpose of this operation is to prevent the processor from interrupting other work. After the necessary data transfer is completed, the 'GPSDataCame' flag is set and the process of controlling the location values begins.
