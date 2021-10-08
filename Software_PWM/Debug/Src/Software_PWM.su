@@ -1,0 +1,6 @@
+Software_PWM.c:21:6:TIM2_IRQHandler	8	static
+Software_PWM.c:34:10:PCLK1TIM	16	static
+Software_PWM.c:51:6:set_PWM_Frequency	56	static
+Software_PWM.c:95:6:PWM_GPIO_Init	56	static
+Software_PWM.c:124:6:generate_PWM_Signal	24	static
+Software_PWM.c:161:6:servoMove	24	static

@@ -1,0 +1,10 @@
+GPS.c:32:6:TakeGpsValue	32	static
+GPS.c:128:7:GPSLatit	40	static
+GPS.c:194:7:GPSLongitude	32	static
+GPS.c:252:6:GpsHours	24	static
+GPS.c:293:6:TakeGpsGPGGA	24	static
+GPS.c:364:7:GPSLatitGGA	40	static
+GPS.c:429:7:GPSLongitudeGGA	32	static
+GPS.c:490:6:GpsHoursGGA	24	static
+GPS.c:528:5:GpsSatellite	24	static
+GPS.c:585:7:GpsAltitude	24	static

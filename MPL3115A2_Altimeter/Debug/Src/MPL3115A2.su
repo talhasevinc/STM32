@@ -1,0 +1,6 @@
+MPL3115A2.c:15:6:i2cWrite	32	static
+MPL3115A2.c:22:6:Mpl3115A2_Init	8	static
+MPL3115A2.c:37:6:Mpl3115A2_Begin	32	static
+MPL3115A2.c:75:7:MPL3115A2_ReadPressure	48	static
+MPL3115A2.c:131:7:MPL3115A2_ReadTemperature	40	static
+MPL3115A2.c:181:7:MPL3115A2_ReadAltitude	48	static
