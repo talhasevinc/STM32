@@ -1,7 +1,7 @@
 
-My test conditions are these:
+**My test conditions are these:**
 
-    MicroController:STM32F407VGT6
+        MicroController:STM32F407VGT6
 	Clock Frequency:100 MHz
 
 	Timer2 Basic Timer is on and fed by internal clock.
@@ -21,8 +21,9 @@ My test conditions are these:
 		38400              			 	  636-636
 		57600              			  	  628-615
 		115200              			  602-578
-        230400							  573-510
-    For Read Function:
+                230400							  573-510
+    
+        For Read Function:
 
 		Baud Rate             Optimal Value(coefficient1-coefficient2)
 		 9600              			      646-646
