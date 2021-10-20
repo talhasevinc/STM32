@@ -17,7 +17,7 @@ Pulse-width modulation (PWM), or pulse-duration modulation (PDM), is a method of
  
  ![3kPwm2_550x350](https://user-images.githubusercontent.com/34924065/136581407-7dad2e63-de83-4946-bb6e-14c60b866f44.jpg)
 
- **set_PWM_Frequency(4000);**        //3k Frequency   
- **generate_PWM_Signal(56,20);**     //Duty Cycle:6 , Signal Generate Time:20 ms
+ **set_PWM_Frequency(4000);**        //4k Frequency   
+ **generate_PWM_Signal(56,20);**     //Duty Cycle:56 , Signal Generate Time:20 ms
  
  ![4kPwm2_550x350](https://user-images.githubusercontent.com/34924065/136581495-10591044-b023-4373-8b41-b5119d5b8e95.jpg)
