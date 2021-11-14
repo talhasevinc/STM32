@@ -2,7 +2,7 @@
  * Sofware_PWM.c
  *
  *  Created on: Aug 13, 2021
- *      Author: mypc
+ *      Author: Talha SEVİNÇ
  */
 
 #include "Software_PWM.h"

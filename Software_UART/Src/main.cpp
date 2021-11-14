@@ -108,7 +108,7 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   UART myUart(GPIOC, GPIO_PIN_6,GPIOC, GPIO_PIN_7);
-  myUart.setBaudRate(230400);
+  myUart.setBaudRate(115200);
   for(int i=0;i<10;i++)
     sendDatas[i]=241+i;
   sprintf(sendDatas,"TalhaSevinc");
