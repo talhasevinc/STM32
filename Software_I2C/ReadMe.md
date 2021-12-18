@@ -20,11 +20,11 @@ The parameter is that;
 
 I2C_Write(uint8_t deviceAddress,uint8_t registerAddress,uint8_t *sendData,uint8_t dataNumber,uint32_t timeOut)
 
--deviceAddress: 7-bit module address. Last bit is setted by library according to write/read process.
--registerAddress: desired register value of module to write.
--sendData:  Array sending.
--dataNumber: How many bytes sending?
--timeOut: If module return NACK, how many times function try to send datas?
+<br />deviceAddress: 7-bit module address. Last bit is setted by library according to write/read process.
+<br />registerAddress: desired register value of module to write.
+<br />sendData:  Array sending.
+<br />dataNumber: How many bytes sending?
+<br />timeOut: If module return NACK, how many times function try to send datas?
 
 For receiving data, you can use this function;
 
