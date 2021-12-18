@@ -7,13 +7,13 @@ One of the best things about UART is that it only uses two wires to transmit dat
 # How is this library work?
 
 <br />Firsty, you have define an object from UART class.
-**UART myUart(GPIOC, GPIO_PIN_6,GPIOC, GPIO_PIN_7);**
+<br /> **UART myUart(GPIOC, GPIO_PIN_6,GPIOC, GPIO_PIN_7);**
 <br />  Object name is myUart. And GPIOC Pin6 is Tx, GPIOC Pin7 Rx pins.
 <br />  Then, you have to set Baud rate.
 <br />  myUart.setBaudRate(57600);
 <br /> In this example, Baud rate:57600
 
-**Send Process**
+**SEND PROCESS:**
 <br /> For sending data, use this function;
 <br /> **myUart.Uart_Transmit(sendDatas,strlen(sendDatas));**
 <br />  **-sendDatas:** Array will be sent
@@ -23,7 +23,12 @@ One of the best things about UART is that it only uses two wires to transmit dat
 
 
      
-     RECEIVE:
+ **RECEIVE PROCESS:**
+ <br /> For receiving data, use this function;
+ <br /> **myUart.Uart_Receive(receiveDatas,20,500);**
+ <br /> **-receiveDatas: Array that will store datas.**
+ <br /> **-20:How many bytes will receive.**
+ <br /> **-500:Timeout**
      
  ![UartReceive115200](https://user-images.githubusercontent.com/34924065/136582985-4ef3754e-f358-4980-ba2b-44cbe09b9300.JPG)
  
