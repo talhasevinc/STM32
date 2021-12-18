@@ -37,9 +37,9 @@
      found for receive process.
      
      
-     # EXAMPLE:
+     #EXAMPLE:
      
-     SEND:
+     **SEND:**
      
 ![UartSend](https://user-images.githubusercontent.com/34924065/136582927-659c3d04-9e4b-4d55-a816-22394356abaf.JPG)
 
