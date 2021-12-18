@@ -14,7 +14,7 @@ For above example, firstly define an object from I2C class. Its name is myI2C. T
 
 For sending data, you can use this function;
 
-**myI2C.I2C_Write(0x60, 0x26, (uint8_t *)sendingData, 3, 1000);**
+***myI2C.I2C_Write(0x60, 0x26, (uint8_t *)sendingData, 3, 1000);***
 
 The parameter is that;
 
@@ -28,7 +28,7 @@ timeOut: If module return NACK, how many times function try to send datas?
 
 For receiving data, you can use this function;
 
-**myI2C.I2C_Read(0x60, 0x26, (uint8_t *)sendingData, 3, 1000);**
+***myI2C.I2C_Read(0x60, 0x26, (uint8_t *)sendingData, 3, 1000);***
 
 Parameters are same as write function.
 
