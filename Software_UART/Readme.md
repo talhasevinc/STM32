@@ -37,7 +37,7 @@
      found for receive process.
      
      
-     EXAMPLE:
+     # EXAMPLE:
      
      SEND:
      
