@@ -1,10 +1,10 @@
-** What is I2C? **
+## What is I2C? 
 The Inter-Integrated Circuit (I2C) Protocol is a protocol intended to allow multiple "peripheral" digital integrated circuits ("chips") to communicate with one or more "controller" chips. Like the Serial Peripheral Interface (SPI), it is only intended for short distance communications within a single device. Like Asynchronous Serial Interfaces (such as RS-232 or UARTs), it only requires two signal wires to exchange information.
 
-** What is purpose of this project? **
+**What is purpose of this project?**
 Certain pins can be used as hardware for i2c on stm. However, in some cases, those pins may be full or the i2c pins may be incorrectly selected on a designed card. In such cases, the desired pins can be selected as SDA and SCL pins through this library, and communication processing, data reading or writing can be performed with any module.
 
-** How is it working **
+**How is it working**
 
 Usage of library is very simple. Firstly, you have to declare SDA and SCL ports and pins.
 
