@@ -8,7 +8,7 @@ Certain pins can be used as hardware for i2c on stm. However, in some cases, tho
 
 Usage of library is very simple. Firstly, you have to declare SDA and SCL ports and pins.
 
-**I2C myI2C(GPIOB,GPIO_PIN_11,GPIOB,GPIO_PIN_10);   // PinB11 ==>SDA , PinB10 ===>SCL**
+**I2C myI2C(GPIOB,GPIO_PIN_11,GPIOB,GPIO_PIN_10);**   // PinB11 ==>SDA , PinB10 ===>SCL
 
 For above example, firstly define an object from I2C class. Its name is myI2C. Then sets required pins. GPIOB port Pin11 is used for SDA , and GPIOB Pin10 is used for SCL bus.
 
