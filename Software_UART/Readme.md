@@ -1,17 +1,23 @@
 
-#What is UART?
+# What is UART?
 <br />UART stands for Universal Asynchronous Receiver/Transmitter. It’s not a communication protocol like SPI and I2C, but a physical circuit in a microcontroller, or a stand-alone IC. A UART’s main purpose is to transmit and receive serial data.
 
 One of the best things about UART is that it only uses two wires to transmit data between devices. The principles behind UART are easy to understand.
 
-#How is this library work?
+# How is this library work?
 
 <br />Firsty, you have define an object from UART class.
 **UART myUart(GPIOC, GPIO_PIN_6,GPIOC, GPIO_PIN_7);**
-  Object name is myUart. And GPIOC Pin6 is Tx, GPIOC Pin7 Rx pins.
-  Then, you have to set Baud rate.
-  myUart.setBaudRate(57600);
-  In this example, Baud rate:57600
+<br />  Object name is myUart. And GPIOC Pin6 is Tx, GPIOC Pin7 Rx pins.
+<br />  Then, you have to set Baud rate.
+<br />  myUart.setBaudRate(57600);
+<br /> In this example, Baud rate:57600
+
+**Send Process**
+<br /> For sending data, use this function;
+<br /> **myUart.Uart_Transmit(sendDatas,strlen(sendDatas));**
+<br />  **-sendDatas:** Array will be sent
+<br />  **-strlen(sendDatas):** How many bytes will be sent.
   
 ![UartSend](https://user-images.githubusercontent.com/34924065/136582927-659c3d04-9e4b-4d55-a816-22394356abaf.JPG)
 
