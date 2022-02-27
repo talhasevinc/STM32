@@ -1,0 +1,16 @@
+SoftI2C.c:15:6:I2C_Init	48	static
+SoftI2C.c:61:6:testOutput	8	static
+SoftI2C.c:73:6:resetIO	8	static
+SoftI2C.c:81:6:delay	16	static
+SoftI2C.c:87:6:startCondition	8	static
+SoftI2C.c:98:6:stopCondition	8	static
+SoftI2C.c:110:6:repeatedStartCondition	8	static
+SoftI2C.c:122:6:changeSDAState	24	static
+SoftI2C.c:149:6:waitACK	24	static
+SoftI2C.c:171:6:writeReadBitSet	32	static
+SoftI2C.c:206:6:writeBytes	24	static
+SoftI2C.c:233:9:readLine	16	static
+SoftI2C.c:264:6:sendACK	16	static
+SoftI2C.c:284:19:I2C_DeviceReady	16	static
+SoftI2C.c:296:6:I2C_Write	24	static
+SoftI2C.c:345:6:I2C_Read	32	static
