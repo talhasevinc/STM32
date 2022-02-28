@@ -28,7 +28,7 @@ I2C_Write(uint8_t deviceAddress,uint8_t registerAddress,uint8_t *sendData,uint8_
 
 For receiving data, you can use this function;
 
-**myI2C.I2C_Read(0x60, 0x26, sendingData, 3, 1000);**
+**myI2C.I2C_Read(0x60, 0x26, receiveData, 3, 1000);**
 
 Parameters are same as write function.
 
